@@ -10,6 +10,8 @@ Full documentation is available online at:
 ### FreqAI Integration
 An onboarding checklist for enabling FreqAI alongside the NostalgiaForInfinity strategies is available at [`docs/freqai-integration.md`](docs/freqai-integration.md).
 
+An onboarding checklist for enabling FreqAI alongside the NostalgiaForInfinity strategies is available at [`docs/freqai-integration.md`](docs/freqai-integration.md).
+
 The repository now includes a FreqAI-compatible strategy skeleton (`NostalgiaForInfinityX7Freqai`) that keeps the original rules intact while gating entries with model predictions.
 
 To run a dedicated FreqAI container without touching the default bot, use `docker-compose.freqai.yml` (see the guide for details).
