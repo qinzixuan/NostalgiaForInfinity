@@ -10,6 +10,13 @@ Full documentation is available online at:
 ### FreqAI Integration
 An onboarding checklist for enabling FreqAI alongside the NostalgiaForInfinity strategies is available at [`docs/freqai-integration.md`](docs/freqai-integration.md).
 
+An onboarding checklist for enabling FreqAI alongside the NostalgiaForInfinity strategies is available at [`docs/freqai-integration.md`](docs/freqai-integration.md).
+
+The repository now includes a FreqAI-compatible strategy skeleton (`NostalgiaForInfinityX7Freqai`) that keeps the original rules intact while gating entries with model predictions.
+
+To run a dedicated FreqAI container without touching the default bot, use `docker-compose.freqai.yml` (see the guide for details).
+For local data download / train / predict loops, use the helper script `tools/freqai/pipeline.sh` and adjust its environment variables as needed.
+
 ## Introduction
 
 Trading strategy for the [Freqtrade](https://www.freqtrade.io) crypto bot. For backtesting results, check out the comments in the individual [commit](https://github.com/iterativv/NostalgiaForInfinity/commits/main) page.
