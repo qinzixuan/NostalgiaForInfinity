@@ -4,8 +4,11 @@
 
 ## 📖 Documentation
 
-Full documentation is available online at:  
+Full documentation is available online at:
 👉 [https://iterativv.github.io/NostalgiaForInfinity/](https://iterativv.github.io/NostalgiaForInfinity/)
+
+### FreqAI Integration
+An onboarding checklist for enabling FreqAI alongside the NostalgiaForInfinity strategies is available at [`docs/freqai-integration.md`](docs/freqai-integration.md).
 
 ## Introduction
 
